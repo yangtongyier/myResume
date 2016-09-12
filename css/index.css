@@ -750,15 +750,15 @@ html {
 }
 @media all and (min-width:321px){
     .page7 .back p:nth-of-type(1){
-        top: 52%;
+        top: 54%;
         left: 0;
     }
     .page7 .back p:nth-of-type(2){
-        top: 55%;
+        top: 57%;
         left: 0;
     }
     .page7 .back p:nth-of-type(3){
-        top: 58%;
+        top: 60%;
         left: 0;
     }
 }
