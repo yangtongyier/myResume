@@ -737,15 +737,15 @@ html {
     text-align: left;
 }
 .page7 .back p:nth-of-type(1){
-    bottom: 2.35rem;
+    top: 3.12rem;
     left: 0;
 }
 .page7 .back p:nth-of-type(2){
-    bottom: 2.13rem;
+    top: 3.33rem;
     left: 0;
 }
 .page7 .back p:nth-of-type(3){
-    bottom: 1.91rem;
+    top: 3.55rem;
     left: 0;
 }
 
