@@ -720,7 +720,7 @@ html {
     height: .17rem;
 }
 .page7 .back img:nth-of-type(3){
-    top: 1.9rem;
+    top: 30%;
     left: 50%;
     margin-left: -.58rem;
     width: 1.16rem;
@@ -737,15 +737,15 @@ html {
     text-align: left;
 }
 .page7 .back p:nth-of-type(1){
-    top: 3.12rem;
+    top: 48%;
     left: 0;
 }
 .page7 .back p:nth-of-type(2){
-    top: 3.33rem;
+    top: 51%;
     left: 0;
 }
 .page7 .back p:nth-of-type(3){
-    top: 3.55rem;
+    top: 54%;
     left: 0;
 }
 
