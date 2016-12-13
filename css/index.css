@@ -536,72 +536,86 @@ html {
     color: #676767;
     line-height: .25rem;
 }
-.page6 .back img:nth-of-type(1){
+.page6 .back img.img1{
     top :.55rem;
     left: .45rem;
     width: 1.27rem;
     height: .39rem;
 }
-.page6 .back img:nth-of-type(2){
+.page6 .back img.img2{
     top :1.15rem;
     left: 1.25rem;
     width: 1.27rem;
     height: .17rem;
 }
-.page6 .back img:nth-of-type(3){
-    top: 1.9rem;
+.page6 .back .weixin{
+    position: absolute;
+    top: 45%;
     left: 50%;
     margin-left: -.58rem;
+    margin-top: -.58rem;
     width: 1.16rem;
     height:1.16rem;
 }
-.page6 .back p{
+.page6 .back .weixin img{
+    width: 100%;
+    height:100%;
+}
+.page6 .back .des{
+    margin-top:.2rem ;
+    position: absolute;
+    top: 55%;
+    left: 0;
     width: 100%;
     padding:0 25% ;
-    line-height: 22px;
-    font-size: 14px;
+}
+.page6 .back .des p{
+    line-height: .22rem;
+    font-size: .14rem;
     font-weight: bold;
     color: #676767;
     text-align: left;
+    opacity: 0;
+    filter:alpha(opacity=0)
 }
-.page6 .back p:nth-of-type(1){
-    bottom: 2.35rem;
-    left: 0;
-}
-.page6 .back p:nth-of-type(2){
-    bottom: 2.13rem;
-    left: 0;
-}
-.page6 .back p:nth-of-type(3){
-    bottom: 1.91rem;
-    left: 0;
-}
-.page6 .back h2,.page6 .back img,.page6 .back p{
+/*.page6 .back .des p:nth-of-type(1){*/
+    /*bottom: 2.35rem;*/
+    /*left: 0;*/
+/*}*/
+/*.page6 .back .des p:nth-of-type(2){*/
+    /*bottom: 2.13rem;*/
+    /*left: 0;*/
+/*}*/
+/*.page6 .back .des p:nth-of-type(3){*/
+    /*bottom: 1.91rem;*/
+    /*left: 0;*/
+/*}*/
+.page6 .back h2{
     position: absolute;
     opacity: 0;
     filter:alpha(opacity=0)
 }
-#page6 .back h2,#page6 .back img:nth-of-type(3){
+#page6 .back h2,#page6 .back .weixin img{
     -webkit-animation:zoomIn 1s linear 0s 1 both ;
     animation:zoomIn 1s linear 0s 1 both ;
 }
-#page6 .back img:nth-of-type(1){
+#page6 .back img.img1{
     -webkit-animation:bounceInLeft .5s linear 0s 1 both ;
     animation:bounceInLeft .5s linear 0s 1 both ;
 }
-#page6 .back img:nth-of-type(2){
+#page6 .back img.img2{
     -webkit-animation:bounceInRight .5s linear 0s 1 both ;
     animation:bounceInRight .5s linear 0s 1 both ;
 }
-#page6 .back p:nth-of-type(1){
+#page6 .back .des p:nth-of-type(1){
     -webkit-animation:fadeInUp 1s linear 1s 1 both ;
     animation:fadeInUp 1s linear 1s 1 both ;
 }
-#page6 .back p:nth-of-type(2){
+#page6 .back .des p:nth-of-type(2){
     -webkit-animation:fadeInUp 1s linear 1.3s 1 both ;
     animation:fadeInUp 1s linear 1.3s  1 both ;
 }
-#page6 .back p:nth-of-type(3){
+#page6 .back .des p:nth-of-type(3){
     -webkit-animation:fadeInUp 1s linear 1.6s 1 both ;
     animation:fadeInUp 1s linear 1.6s  1 both ;
 }
